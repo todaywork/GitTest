@@ -12,6 +12,7 @@
     tools:context="com.androidstudio.zzl.myapplication3.MainActivity">
 
     <TextView
+<<<<<<< HEAD
         android:id="@+id/tv_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,4 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_second"
         android:text="hello"/>
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+>>>>>>> origin/master
 </RelativeLayout>
