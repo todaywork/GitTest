@@ -12,9 +12,15 @@
     tools:context="com.androidstudio.zzl.myapplication3.MainActivity">
 
     <TextView
-        android:textColor="@android:color/black"
         android:id="@+id/tv_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:text="Hello World!"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_second"
+        android:text="hello"/>
 </RelativeLayout>
